@@ -1,0 +1,148 @@
+<html>
+
+<head>
+    <title>GEOLOCATION BY IP v1.0- HZMDev</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./geo.css" />
+</head>
+
+<body>
+    <div class="container border rounded">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fa-solid fa-keyboard"></i>
+                            ENTER AN IP TO SEARCH
+                        </h5>
+                        <div class="input-group">
+                            <div class="form-outline">
+                                <input type="search" id="form1" class="form-control" placeholder="Search" />
+                            </div>
+                            <button type="button" class="btn btn-primary" id="btnSearch">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container border rounded">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fa-solid fa-globe" id="publicIp"></i>
+                            PUBLIC IP ADDRESS
+                        </h5>
+                        <p class="card-text" id="ip"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col-2">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">CONTINENT</h5>
+                        <p class="card-text" id="continent">.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center" >
+                    <div class="card-body">
+                        <h5 class="card-title">COUNTRY CODE</h5>
+                        <p class="card-text" id="countryCode"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">COUNTRY</h5>
+                        <p class="card-text" id="country"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fa-solid fa-location-dot"></i>
+                            REGION & CITY
+                        </h5>
+                        <p class="card-text" id="regionAndCity"></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">ZIP CODE</h5>
+                        <p class="card-text" id="zipCode"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col-5">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fa-solid fa-location-dot"></i>
+                            LATITUDE & LONGITUDE
+                        </h5>
+                        <p class="card-text" id="latLong"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fa-solid fa-clock"></i>
+                            TIME ZONE
+                        </h5>
+                        <p class="card-text" id="timeZone"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                            CURRENCY
+                        </h5>
+                        <p class="card-text" id="currency"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa-solid fa-check" id="validar"></i> INTERNET SERVICE PROVIDER
+                        </h5>
+                        <p class="card-text" id="isp"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./geo.js"></script>
+    <script src="https://kit.fontawesome.com/250ee3c0c4.js" crossorigin="cors"></script>
+</body>
+
+</html>
