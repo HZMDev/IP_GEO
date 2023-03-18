@@ -1,4 +1,4 @@
-[![activo](https://img.shields.io/badge/ACTIVO-OFF-red)]() ![visitors](https://visitor-badge.laobi.icu/badge?page_id=HZMDev.IP_GEO)
+[![completed](https://img.shields.io/badge/STATUS-COMPLETED-red)]() ![visitors](https://visitor-badge.laobi.icu/badge?page_id=HZMDev.IP_GEO)
 # 🌐📍 IP GEOLOCATION PROJECT 🌐📍
 This is a basic mini geolocation project via IP address.
 
